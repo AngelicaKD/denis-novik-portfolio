@@ -1,68 +1,74 @@
-body{
-   width: 1440px;
+.container{
    font-family: Open Sans;
-   margin-left: 235px;
+   width: 970px;
    text-align: center;
+   margin: auto;
 }
 
-
 header {
-   border-bottom: 1px solid rgba(130, 130, 130, 1);
-   width: 970px;
    height: 80px;
-} 
+   border-bottom: 1px solid rgba(130, 130, 130, 1);
+}
 
-.header-menu{
-   padding-top: 25px;
-  
+.header-menu {
+   width: 498px;
+   padding: 20px;
+   margin: auto;
+
 }
 
 .element-menu {
-   font-weight: 400;
    font-size: 18px;
-   margin-left: 50px;
-}
-
-.home-block {
-   width: 970px;
-   height: 497px;
+   font-weight: 400px;
+   color: #070707;
+   padding-left: 30px;
 }
 
 .denis-novik {
    font-size: 48px;
-   margin-top: -0.3px;
-   text-align: initial;
-
+   text-align:initial;
+   margin: auto;
+   padding-bottom: 50px;
 }
-.logotype{
+
+.logotype {
    height: 387px;
 }
 
 .about-block {
-   background-color:  #F6F6F6;
-   width: 970px;
-   height: 500px;
+ margin-top: -35px;
 }
 
-.about-title {
-   padding-top: 100px;
-   margin-top: -1px;
+h2 {
    font-size: 34px;
+   padding: 50px;
 }
 
-.about-text p{
+p {
    font-size: 18px;
-   margin-bottom: 30px ;
+   padding-bottom: 30px;
 }
 
-.skills-block {
-   width: 970px;
-   height: 564px;
+img .portfolio-block {
+   height: 540px;
 }
 
-.title-skills {
-   font-size: 34px;
-   margin-top: 100px;
-   margin-bottom: 30px;
+.about-block, .portfolio-block {
+   background-color: #F6F6F6;
 }
 
+.message-button{
+   background-color:#070707;
+   color:#F6F6F6;
+   width: 180px;
+   height: 44px;
+   border-radius: 22px;
+   font-family: Open Sans, sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.contacts-text {
+   font-size: 14px;
+   color: #828282;
+}
